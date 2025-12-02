@@ -1,0 +1,7 @@
+
+BEGIN V2C
+<License>
+  <Feature>FeatureA</Feature>
+  <Feature><![CDATA[</License><Injected>Malicious</Injected>]]></Feature>
+</License>
+END V2C
